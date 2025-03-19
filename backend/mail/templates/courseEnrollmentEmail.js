@@ -72,7 +72,7 @@ exports.courseEnrollmentEmail = (courseName, name) => {
                     are excited to have you as a participant!</p>
                 <p>Please log in to your learning dashboard to access the course materials and start your learning journey.
                 </p>
-                <a class="cta" href="https://study-notion-mern-stack.netlify.app/dashboard/enrolled-courses">Go to Dashboard</a>
+                <a class="cta" href="https://codeacademia-frontend.onrender.com/dashboard/enrolled-courses">Go to Dashboard</a>
             </div>
             <div class="support">If you have any questions or need assistance, please feel free to reach out to us at 
             <a href="mailto:pandeadarsh06@gmail.com">pandeadarsh06@gmail.com</a>. We are here to help!</div>
