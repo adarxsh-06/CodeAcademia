@@ -23,8 +23,7 @@ app.use(express.json()); // to parse json body
 app.use(cookieParser());
 app.use(
     cors({
-        // origin: 'http://localhost:5178', // frontend link
-        origin: "*",
+        origin: 'https://codeacademia-frontend.onrender.com', // frontend link
         credentials: true
     })
 );
@@ -37,7 +36,7 @@ app.use(
 )
 
 
-const PORT = process.env.PORT || 5050;
+const PORT = process.env.PORT || 5056;
 
 app.listen(PORT, () => {
     console.log(`Server Started on PORT ${PORT}`);
